@@ -1,4 +1,3 @@
-
 if ( g_MapList ) then return end
 
 local MapPatterns = {}
@@ -60,6 +59,7 @@ local function UpdateMapPatterns()
 	MapPatterns[ "lambda_bunker" ] = "Half-Life: Source Deathmatch"
 
 	MapPatterns[ "dm_" ] = "Half-Life 2 Deathmatch"
+	MapPatterns[ "halls3" ] = "Half-Life 2 Deathmatch"
 
 	MapPatterns[ "^dys_" ] = "Dystopia"
 	MapPatterns[ "^pb_" ] = "Dystopia"
