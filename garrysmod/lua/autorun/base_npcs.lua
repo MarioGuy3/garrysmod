@@ -1,4 +1,3 @@
-
 --
 -- Don't try to edit this file if you're trying to add new NPCs.
 -- Just make a new file and copy the format below.
@@ -16,7 +15,7 @@ list.Set( "NPC", NPC.Class, NPC )
 
 local NPC = { 	Name = "Barney", 
 				Class = "npc_barney",
-				Weapons = { "weapon_pistol", "weapon_smg1" },
+				Weapons = { "weapon_ar2", "weapon_smg1" },
 				Category = Category	}
 
 list.Set( "NPC", NPC.Class, NPC )
